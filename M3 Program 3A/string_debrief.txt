@@ -1,0 +1,23 @@
+1. Name: Lauren Sherburne
+   Course: CSCI 341 - Computer Organization
+   Homework: M3 Program 3A
+   Date: October 22, 2020
+
+2. Time Spent: 6 hours
+
+3. I began by first writing the code that in main, since it was used to test my procedures, then by working on the
+   procedures themselves. My main technique was to write small portions of code, then run tests to ensure it worked
+   properly.
+
+4. Beyond course material, I sought the help of a few fellow classmates who helped talk through some of my problems with
+   me. They also were able to help me debug a few problems in one of my procedures.
+
+5. I think my code could be more organized and could have more comments. If I had more time, I would make sure that it was
+   more readable to peers.
+
+6. I am most pleased with the fact that I actually was able to complete the assignment procedures as they seemed to be a 
+   very daunting task when I first read the instruction.
+
+7. Due to time restraints caused by a busy week, most of my testing involved using the example shown on Canvas: "hello,
+   this is my string" followed by "5" and "1234". However, I tested a couple other strings and numbers just to double
+   check that my code worked properly.
