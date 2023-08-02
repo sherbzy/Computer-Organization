@@ -1,0 +1,24 @@
+1. Name: Lauren Sherburne
+   Course: CSCI 341 - Section A
+   Homework Title: M2 Program 2B - Cafe Wall
+   Date: 9/23/30
+
+2. Time spent on program: 5 hours
+
+3. To begin, I wanted to familiarize myself with the basic Bitmap display code that was attached in the assignment
+   instructions. Then, I worked through the steps of the problem that are listed on the assignment page one at a time to
+   create the final working code. Completing each step involved first brainstorming an overview of how to tackle the
+   problem, writing pseudocode/comments, then placing procedures next to my comments.
+
+4. Other than the course notes and lectures, I used the module 2 resources in order to help keep all of my system calls,
+   procedures, and variables straight. For the most part, this assignment was straightforward enough that I was able to
+   accomplish it on my own without needing outside assistance. Honestly, using a rubber-duck method to help talk through
+   my thought process was the biggest aid to me on this assignment.
+
+5. If I had more time, I would definitely take another look at my use of the MIPS variables and addresses throughout. Also
+   looking back, my code does seem a bit comment-heavy and I think it may be easier to read if I simplified/shortened a few
+   of the comments and/or used indents and spacing to bette separate my different loops.
+
+6. I am most proud of the fact that I was able to successfully use a system of loops to accomplish my goal in this
+   assignment. When we were going over how to use MIPS loops and branching procedures, I was a bit uneasy about actually
+   coding them, but my success utilizing them in this program was very rewarding.

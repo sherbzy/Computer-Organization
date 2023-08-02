@@ -1,0 +1,14 @@
+Assemble: assembling C:\Users\Lauren Sherburne\Documents\CSCI 341 - Computer Organization\cafewall.s
+
+Assemble: operation completed successfully.
+
+Go: running cafewall.s
+
+
+Go: execution completed successfully.
+
+Enter a square size: 20
+Enter a grid size: 5
+
+-- program is finished running --
+
