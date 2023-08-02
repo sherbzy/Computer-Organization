@@ -1,0 +1,23 @@
+Name: Lauren Sherburne
+Course: CSCI 341 - Computer Organization
+Homework: M2 Program 2A
+Date: 09/09/2020
+
+1. Time Spent: about 4.5 hours
+
+2. Approach: First, I had to write out comments in my code that outlined the steps I needed to take to write the problem.
+    Then, it was just a matter of using my notes and the resources on canvas to go through the assignment one step at a
+    time. I started with the .data that would be used to prompt the user and indicate which printed numbers meant what, and
+    moved on to get an integer from input. Finally, I simply manipulated the input in different ways and printed the
+    results. Also, I tested my code after each step and debug it to ensure that my logic was correct.
+3. Help: The course material and the resources found at the beginning of module 2 were probably the biggest help throughout
+    this project. However, I did need to use a "rubber-duck debug" method and explained my code several times to both a
+    literal rubber duck and my roommates which also helped me catch a few mistakes with the logical shifts that I
+    originally did not see.
+4. Improvements: I do not know if it is possible yet with my limited understanding and knowledge of MIPS, but my code seems
+    to be a bit repetitive when I am trying to find the different bytes to print. I was considering how I could write
+    similar code in a language that I am familiar with, and I believe I could achieve the same results with less lines with
+    the help of a loop. Also, I had hoped to have enough time to work on a few of the bonuses, but ended up 
+5. Favorite part of Code: My favorite part of my code is where I used logical shifting to sort through the different bytes
+    of the given integer. I am pleased that I was able to figure out the correct shifts in a relatively short amount of
+    time.
