@@ -1,5 +1,7 @@
 M4 Program 4
 
+Note: I ended up having to turn in my partially complete program since I ran out of time. This week was RMAC championship week for women's soccer and I had several other exams and projects in classes with lower grades than this one so I chose to spend a bit less time on this class.
+
 In our final program, you will be implementing the LRU (least recently used) approximation algorithm discussed in class, in MIPS.
 
 What to Submit
