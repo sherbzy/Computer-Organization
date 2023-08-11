@@ -1,0 +1,1 @@
+This was less of a traditional midterm and more of an open-ended personal project with a small time frame. I chose to create a quick-reference guide for the CPU. My goal was to generally outline everything we had discussed in class in an easy-to-read manner.
