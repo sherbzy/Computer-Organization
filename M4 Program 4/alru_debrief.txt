@@ -1,0 +1,35 @@
+1. State your name, the course, the homework, and the date.
+   Name: Lauren Sherburne
+   Course: Computer Organization (CSCI 341)
+   Homework: Approximating LRU - M4 Program 4
+
+2. How long in total did you spend on the program (design, code, debug, reporting)?
+   9 hours
+
+3. Discuss your approach to the problem: where did you begin, and what steps did you take to complete the program? how did
+your approach change as you worked through the problem? did code walk-through, the debugger, or some other technique or
+tool help resolve issues?
+   I started with pseudocode and then moved on to writing the actual program. First, I created main to read in values from
+   the user and exit the program if the numbers were out of bounds. Then, I wrote a procedure that took in an integer from
+   main and printed the state of the system. Finally, I used the loop inside of main to update the system based on the
+   user's entry.
+
+4. What help did you seek out beyond the course material, and did it help resolve your problem?
+   In addition to course material, I went to office hours because I was confused on two things: how the integer (0-7) is 
+   actually converted to a 4 digit system (I had a tough time understanding this concept even though I rewatched the
+   lecture on it multiple times, but eventually, I got it), and how to update the system based on the user's input.
+   Eventually, after talking to a TA (and a rubber duck), I was able to resolve my problems and finish the program.
+
+5. What parts of your code could use improvement or disappointed you (what work didn’t you get done, that more time would
+have enabled you to finish, or what bugs did you not resolve)?
+   For some reason, I think my code is spitting out the wrong set of numbers on one of the graded inputs, but I did not
+   have enough time to figure out why this was happening. Additionally, the code is a bit messy and I would have liked time
+   to make it more readable by others.
+
+6. Which part of your code are you the most pleased about?
+   I am most pleased about my procedure that prints the state of the system because it seemed very complicated when I was
+   attempting to write it, but I completed it without any outside assistance.
+
+7. Discuss how you tested your code or otherwise ensured it was behaving correctly.
+   Throughout the coding process, I tested the code to make sure it worked properly. Any time that I added a new section of
+   code or altered an already-written section, I plugged in some values to ensure that it was performing as expected.
