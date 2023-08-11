@@ -1,0 +1,23 @@
+1. Group Name: Motyga Hackathon
+   Members: Lauren Sherburne, Lucas King, Thomas Jensen
+   Course: CSCI 341 - Computer Organization
+   Midterm 1 - Part 2 - Unhacked!
+   Date: 10/6/20
+
+2. Total Time: 4 hours
+
+3. The first thing our group did was talk through the hack.s file that we were given to determine its purpose. We added
+   comments to the preexisting code and used visuals to help figure out what process it accomplished all while using MIPS
+   to step through the code's procedures. Soon, we discovered that the code we were given simply takes in an integer from
+   the user and prints out a 1 if the number was odd and a 0 if the number is 0, 1, or even. Then, we translated the MIPS
+   code to simple C++.
+
+4. Our group relied heavily on verbally explaining the code and visually writing down the steps of the code to resolve this
+   problem. Therefore, other than peer input from other group members and course materials such as the green card, we did
+   not need to seek out other help.
+
+5. The part of the code we were most pleased about was the revelation that not all numbers were going through the loop
+   statements and there was a base case for one and zero.
+
+6. The part of the code that frustrated us the most was using unnecessary loops to do the same task as a modulo statement
+   and figuring out which registers were necessary and which could be ignored.
