@@ -7,7 +7,6 @@ Submit an archive file named CSCI341_P3B_YourName with the file extension denoti
 1. cycles.s, containing the program specified in this assignment.
 
 2. cycles_record.txt, containing a MARS Record showing the compilation of your program and the output of it running with the following inputs:
-
 100
 200
 300
@@ -19,6 +18,7 @@ Submit an archive file named CSCI341_P3B_YourName with the file extension denoti
 300
 100
 -1
+
 3. cycles_debrief.txt, containing the Program Debrief - follow the instructions, include the questions as well as your answers as requested there. In your debrief, add an item 7 which is "7. Discuss how your code follows the procedure calling conventions (ABI)",  and include that discussion.
 
  
