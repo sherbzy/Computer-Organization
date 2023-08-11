@@ -1,0 +1,35 @@
+1. State your name, the course, the homework, and the date.
+	Name: Lauren Sherburne
+	Course: CSCI 341 - Computer Organization
+	Homework: Module 3 Program 3B
+	Date: 11/05/2020
+
+2. How long in total did you spend on the program (design, code, debug, reporting)?
+	I spent about 6 hours in total on this program.
+
+3. Discuss your approach to the problem: where did you begin, and what steps did you take to complete the program? how did your
+approach change as you worked through the problem? did code walk-through, the debugger, or some other technique or tool help resolve
+issues?
+	I began this program by writing pseudocode that broke down the program and procedures into steps that I could easily follow. Then,
+	I started by writing out the .data and .text sections and moving on to complete main so that I would be able to effectively test
+	my procedures. I started with the tostring procedure since it seemed easiest to write before moving on to the longest procedure
+	and finally the overhead procedure. I used breakpoints to help fix a few bugs in my code throughout the process.
+
+4. What help did you seek out beyond the course material, and did it help resolve your problem?
+	Other than using course material, I went to office hours once for help storing the value for $ra on the stack when calling jal
+	within a the overhead procedure. 
+
+5. What parts of your code could use improvement or disappointed you (what work didn’t you get done, that more time would have enabled
+you to finish, or what bugs did you not resolve)?
+	I could have altered my code to allow the user to input the number of cycle values that they wanted to use as described in the 
+	bonus section. Also, I use a lot of comments throughout the code which made it very extensive and somewhat difficult to read. I
+	think that if I shortened or removed a few comments, it would be easier to follow.
+
+6. Which part of your code are you the most pleased about?
+	I am most pleased that I completed and debugged almost all of my code without needing help. Also, the code in my overhead
+	procedure is what pleased me the most about this project because for me, it was the most difficult to finish successfully.
+
+7. Discuss how your code follows the procedure calling conventions (ABI)
+	My code uses a header comment as well as comments throughout that allow readers to follow along with what the program is
+	accomplishing. Also, the program uses clear, consistent, and unique names for variables and procedures. The tab space was
+	consistently 4 spaces, too, and indentations were used to make the code easier to read.
