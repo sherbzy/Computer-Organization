@@ -1,0 +1,42 @@
+// CSCI 341 Midterm 1 - Part 1 - Hacked!
+// Group: Motyga
+// Date: 10/5/20
+
+
+// include the iostream library to allow input and output from user and use standard namespace
+#include <iostream>
+using namespace std;
+
+// calculate the midpoint of two values in a separate procedure/function
+int calculateMidpoint (int firstVal, int secondVal) {
+    int midPoint = (firstVal + secondVal) / 2;
+    return midPoint;
+}
+
+int main() {
+    // input the first point (x,y) from user
+    int x, y, a, b;
+    cout << "Input the first x value: ";
+    cin >> x;
+
+    cout << "Input the first y value: ";
+    cin >> y;
+
+    // input the second point (a,b) from user
+    cout << "Input the second x value: ";
+    cin >> a;
+
+    cout << "Input the second y value: ";
+    cin >> b;
+
+    // use the midpoint function to calculate the midpoint between (x,y) and (a,b)
+    int midX, midY;
+    midX = calculateMidpoint(x, a);
+    midY = calculateMidpoint(y, b);
+
+    // print the midpoint in the format (x,y)
+    cout << "(" << midX << ", " << midY << ")";
+
+    // exit program
+    return 0;
+}

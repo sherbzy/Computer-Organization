@@ -1,0 +1,183 @@
+# CSCI 341 Midterm 1 - Part 1 - Hacked!
+# Group: Motyga
+# Date: 10/5/20
+# Class: Computer Organization
+
+  .data
+ NL: .asciiz "\n"
+ X1: .asciiz "Input the first x value: "
+ Y1: .asciiz "Input the first y value: "
+ Y2: .asciiz "Input the second y  value:  "
+ X2: .asciiz "Input the second x value: "
+ BV: .asciiz "Bytes are: "
+ SP: .asciiz " "
+ NV: .asciiz "Negated it is: "
+ OP: .asciiz "("
+ CP: .asciiz ")"
+ Comma: .asciiz ", "
+ HH: .asciiz "HAPPY FREAKIN HALLOWEEN!!"
+  .text
+ .globl main
+ main:
+  la $a0, X1 
+  li $v0, 4
+  syscall 
+  li $v0, 5 
+  syscall
+  move $s0,$v0 
+  la $a0, Y1 
+  li $v0, 4
+  syscall 
+  li $v0, 5 
+  syscall
+  move $s1,$v0
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  la $a0, X2 
+  li $v0, 4
+  syscall 
+  li $v0, 5 
+  syscall
+  move $s2,$v0 
+  la $a0, Y2 
+  li $v0, 4
+  syscall 
+  li $v0, 5 
+  syscall
+  move $s3,$v0 
+  
+  
+  
+  
+  
+  
+  																																																																																																						jal fun
+  
+  
+  
+  
+  la $a0, OP
+  li $v0, 4
+  syscall
+  move $a0, $s0
+    li $v0, 1  
+    syscall 
+    la $a0, Comma
+    
+    
+    
+    
+    
+    li $v0, 4
+    syscall
+    move $a0, $s1
+    li $v0, 1
+    syscall 
+    la $a0, CP
+    li $v0, 4
+    syscall
+    li $v0, 10
+    syscall
+    jal recurse
+happyhalloween: 
+la $a0, HH
+li $v0, 4
+syscall
+jr $ra
+recurse:
+    addi $sp, $sp, -8
+    sw $ra, 4($sp)
+    sw $s0, 0($sp)
+    addi $t0, $0, 1
+    jal happyhalloween
+    add $s0, $0, $0
+    add $v0, $0, $0
+    beq $a0, $t0, exit
+    andi $t3, $a0, 0x00000001
+    bne $t3, $0, else
+    srl $a0, $a0, 1
+    jal recurse
+    j done
+else:
+    sll $t0, $a0, 1
+    add $a0, $a0, $t0
+    addi $a0, $a0, 1
+    jal recurse
+done:
+    addi $s0, $v0, 1
+    add $v0, $0, $s0
+exit:
+    lw $s0, 0($sp)
+    lw $ra, 4($sp)
+    addi $sp, $sp, 8
+    jr $ra
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ fun:
+add $s0, $s0, $s2
+        srl $s0, $s0, 1
+        add $s1, $s1, $s3
+        srl $s1, $s1, 1              
+        jr $ra

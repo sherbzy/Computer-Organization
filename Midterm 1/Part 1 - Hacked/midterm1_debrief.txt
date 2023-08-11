@@ -1,0 +1,25 @@
+1. Group Name: Motyga Hackathon
+   Members: Lauren Sherburne, Lucas King, Thomas Jensen
+   Course: CSCI 341 - Computer Organization
+   Midterm 1 - Part 1 - Hacked!
+   Date: 10/5/20
+
+2. Total Time: 3 hours
+
+3. First, our group picked a basic procedure, the midpoint formula, to code in C++. We wrote pseudocode then C++ code with
+   comments explain how the program takes in 2 points from the user before calculating and printing the midpoint. Our group
+   decided that it would be best to first translate our C++ code to MIPS before making it more complicated so we created
+   the MIPS equivalent of our midpoint procedure. One of the first ideas that we implemented to make our code more
+   difficult to read is to change all of the register names to numbers (ex. $t0 = $8). Also, we added a separate function
+   that does nothing to our actual output in order to further confuse readers.
+
+4. For the most part, we used the course materials and peer input from group members to resolve any problems that arose.
+   However, we did go to office hours to clarify if the instructions were asking for us to create a procedure/function 
+   outside of main that was called one or more times inside of main. This helped us resolve some confusion as we were
+   originally trying to perform all calculations inside of main.
+
+5. Our group was a bit disappointed that we didn't have more time to work on making our code more difficult to read. If we
+   had more time, we would have wanted to switch around our use of registers more and perhaps add more functions that in
+   a sense did absolutely nothing other than add random values to the stack.
+
+6. We are most pleased at how much we were able to mess with the syntax of our program to confuse any possible hackers.
